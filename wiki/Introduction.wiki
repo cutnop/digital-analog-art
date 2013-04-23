@@ -1,1 +1,13 @@
-fdg
+
+* [URL TEXT]
+* [URL TEXT]
+* [URL TEXT]
+
+---
+ = Team Members = 
+
+Patrick Cutno
+Lyndon Machiya
+Jonathan Bruno Marques Santos
+Marcus Vinicius Rangel Renno
+---
