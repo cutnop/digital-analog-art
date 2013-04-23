@@ -5,8 +5,8 @@
 ----
  = Team Members = 
 
- Patrick Cutno
- Lyndon Machiya
- Jonathan Bruno Marques Santos
- Marcus Vinicius Rangel Renno
+ * Patrick Cutno
+ * Lyndon Machiya
+ * Jonathan Bruno Marques Santos
+ * Marcus Vinicius Rangel Renno
 ----
