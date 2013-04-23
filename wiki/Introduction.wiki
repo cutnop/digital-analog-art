@@ -20,6 +20,6 @@
 ----
 =Issues=
 
-After trying to determine the angle positions of all 100 points for each joint, we learned our potentiometers were not giving consistent data. If a particular joint was at 90 degrees we would read the value of '*'X'*' from the corresponding potentiometer. As soon as the arm moved to another point, and returned to '*''X'*'', the angle was no longer 90 degrees. Obviously, the error was mechanical, ether our mechanical pins that turned the potentiometers were slightly loose or the mechanics of potentiometers weren't meant to be precise enough for our purposes.
+After trying to determine the angle positions of all 100 points for each joint, we learned our potentiometers were not giving consistent data. If a particular joint was at 90 degrees we would read the value of *'X*' from the corresponding potentiometer. As soon as the arm moved to another point, and returned to *'X*', the angle was no longer 90 degrees. Obviously, the error was mechanical, ether our mechanical pins that turned the potentiometers were slightly loose or the mechanics of potentiometers weren't meant to be precise enough for our purposes.
 
 *Possible solution*: Use accelerometers/gyros to accurately measure angle positions to eliminate the mechanical error.
