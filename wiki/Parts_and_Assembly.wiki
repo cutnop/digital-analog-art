@@ -1,4 +1,4 @@
- * [URL text]
+ * [http://code.google.com/p/digital-analog-art/wiki/Parts_and_Assembly?ts=1366684832&updated=Parts_and_Assembly#Parts_List Parts List]
  * [URL text]
  * [URL text]
 
@@ -8,9 +8,14 @@
  * [http://www.amazon.com/OWI-OWI-535-Robotic-Arm-Edge/dp/B0017OFRCY/ref=sr_1_1?ie=UTF8&qid=1366682091&sr=8-1&keywords=owi+robot OWI Robotic Arm Edge]
  * 3x [http://www.radioshack.com/product/index.jsp?productId=2062301 Small 10k Potentiometer]
  * [http://www.radioshack.com/product/index.jsp?productId=2062287 10k Potentiometer]
- * Arduino
+ * Arduino Mega
+ * [http://www.adafruit.com/products/81 Adafruit motor shield]
  * Perf-board
  * Thin metal wire (used to turn pots)
  * Metal rectangular strip (used to mount the larger pot)
+ * 5x Push buttons and resistors
+ * 5 volt external power supply for the motor shield
 
 ----
+=Assembly=
+ 
