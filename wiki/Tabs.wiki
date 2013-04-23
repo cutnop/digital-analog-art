@@ -1,5 +1,8 @@
 #summary sidebar (ignore, this just makes the wiki look nicer)
  * *[Introduction]*
+   * [http://code.google.com/p/digital-analog-art/wiki/Introduction?ts=1366675945&updated=Introduction#Team_Members Team Members]
+   * [http://code.google.com/p/digital-analog-art/wiki/Introduction?ts=1366677682&updated=Introduction#Goals Goals]
+   * [http://code.google.com/p/digital-analog-art/wiki/Introduction?ts=1366677749&updated=Introduction#Issues Issues]
 
  * *[Parts_and_Assembly]*
 
