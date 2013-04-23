@@ -1,5 +1,8 @@
 #summary sidebar (ignore, this just makes the wiki look nicer)
  * *[Introduction]*
+
  * *[Parts_and_Assembly]*
+
  * *[The_Code]*
+
  <g:plusone size="large"></g:plusone>
