@@ -14,9 +14,9 @@
 
 *Convert a digital low resolution black and white bitmap image into an analog image using the pointillism painting technique and a robotic arm*
 
- * Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
- * Manually move each joint or calculate motor angles needed to create a ten by ten grid 
- * Use the angles from the potentiometers to re-create a ten by ten pixel image by the painting technique, pointillism
+ # Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
+ # Manually move each joint or calculate motor angles needed to create a ten by ten grid 
+ # Use the angles from the potentiometers to re-create a ten by ten pixel image by the painting technique, pointillism
 ----
 =Issues=
 
