@@ -1,0 +1,16 @@
+ * [URL text]
+ * [URL text]
+ * [URL text]
+
+----
+=Parts List=
+
+ * [http://www.amazon.com/OWI-OWI-535-Robotic-Arm-Edge/dp/B0017OFRCY/ref=sr_1_1?ie=UTF8&qid=1366682091&sr=8-1&keywords=owi+robot OWI Robotic Arm Edge]
+ * 3x [http://www.radioshack.com/product/index.jsp?productId=2062301 Small 10k Potentiometer]
+ * [http://www.radioshack.com/product/index.jsp?productId=2062287 10k Potentiometer]
+ * Arduino
+ * Perf-board
+ * Thin metal wire (used to turn pots)
+ * Metal rectangular strip (used to mount the larger pot)
+
+----
