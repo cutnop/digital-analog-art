@@ -11,7 +11,8 @@
  * Arduino Mega
  * [http://www.adafruit.com/products/81 Adafruit motor shield]
  * Perf-board
- * Thin metal wire (used to turn pots)
+ * Thin metal wire that wont bend easily(used to turn pots)
+ * Three nuts or other kind of loops
  * Metal rectangular strip (used to mount the larger pot)
  * 5x Push buttons and resistors
  * 5 volt external power supply for the motor shield
@@ -19,3 +20,17 @@
 ----
 =Assembly=
  
+ # Assemble OWI robotic arm as per instructions
+ # Mount the three smaller potentiometers to the joints of the arm
+   # Cut the perf-board into three small rectangle's
+   # Solder one potentiometer to each perf-board
+   # Solder three wires to the potentiometer (one for each pin on the pot). Make sure the wires are long enough to span the length of the arm and reach the arduino and motor shield.
+   # Attach a piece of the metal wire to the rotational part of the pot
+   # Glue one perf-board to each of the joints
+   # Glue one nut to each arm with the wire from each pot going through
+ # Mount the bigger potentiometer to the base of the robot
+   # Solder three wires to the pot, as before
+   # Glue the pot to the center of the base
+   # Attach the metal rectangular strip from the rotational part of the pot to the base (a part that doesn't rotate with the robot)
+ # 
+ # 
