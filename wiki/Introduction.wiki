@@ -12,14 +12,13 @@
 ----
 =Goals= 
 
-*Convert a digital low resolution black and white bitmap image into an analog image using the pointillism painting technique and a robotic arm*
+*Create art autonomously by making a robotic arm move in random directions*
 
  # Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
- # Manually move each joint or calculate motor angles needed to create a ten by ten grid 
- # Use the angles from the potentiometers to re-create a ten by ten pixel image by the painting technique, pointillism
+ # Create a pseudo random algorithm for the robotic arm to follow
 ----
 =Issues=
 
-After trying to determine the angle positions of all 100 points for each joint, we learned our potentiometers were not giving consistent data. If a particular joint was at 90 degrees we would read the value of *'X*' from the corresponding potentiometer. As soon as the arm moved to another point, and returned to *'X*', the angle was no longer 90 degrees. Obviously, the error was mechanical, ether our mechanical pins that turned the potentiometers were slightly loose or the mechanics of potentiometers weren't meant to be precise enough for our purposes.
+We learned our potentiometers were not giving consistent data. If a particular joint was at 90 degrees we would read the value of *'X*' from the corresponding potentiometer. As soon as the arm moved to another point, and returned to *'X*', the angle was no longer 90 degrees. Obviously, the error was mechanical, ether our mechanical pins that turned the potentiometers were slightly loose or the mechanics of potentiometers weren't meant to be precise enough for our purposes.
 
 *Possible solution*: Use accelerometers/gyros to accurately measure angle positions to eliminate the mechanical error.
