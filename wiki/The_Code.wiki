@@ -11,5 +11,133 @@ To use the Adafruit motor shield, the "AFmotor" library is needed.
 ----
 = Test Code =
 
+{{{
+#include <AFMotor.h> //import library
+
+AF_DCMotor M1(1); // create motor #1
+AF_DCMotor M2(2); // create motor #2
+AF_DCMotor M3(3); // create motor #3
+AF_DCMotor M4(4); // create motor #4
+
+//Create variables for pot values
+int P1=0;
+int P2=0;
+int P3=0;
+int P4=0;
+
+//Create variables for button values
+int Bt1;
+int Bt2;
+int Bt3;
+int Bt4; 
+int Bt5;
+
+//Variable that determines when to print values to the serial monitor
+int count =0;
+
+void setup()
+{
+  //define buttons as inputs
+  pinMode(22,INPUT); //B1
+  pinMode(23,INPUT);
+  pinMode(24,INPUT);
+  pinMode(25,INPUT); //B4
+  pinMode(26,INPUT);
+
+  //start serial monitor
+  Serial.begin(9600);
+
+  //set motors to move at full speed
+  M1.setSpeed(255);     // set the speed to 255/255
+  M2.setSpeed(255);     // set the speed to 255/255
+  M3.setSpeed(255);     // set the speed to 255/255
+  M4.setSpeed(255);     // set the speed to 255/255
+}
+
+void loop()
+{
+  //read button values
+  Bt1 = digitalRead(22);
+  Bt2 = digitalRead(23);
+  Bt3 = digitalRead(24);
+  Bt4 = digitalRead(25);
+  Bt5 = digitalRead(26);
+
+  //If button 5 and any other button is pressed, the joint will move up
+  if(Bt5 == LOW)
+  {
+    if(Bt1  == LOW)
+      M1.run(BACKWARD);
+    else
+      M1.run(RELEASE);
+
+    if(Bt2 == LOW)
+      M2.run(BACKWARD);
+    else
+      M2.run(RELEASE);
+
+    if(Bt3 == LOW)
+      M3.run(BACKWARD);
+    else
+      M3.run(RELEASE);
+
+    if(Bt4 == LOW)
+      M4.run(BACKWARD);
+    else
+      M4.run(RELEASE);
+  }
+
+  //else move the joint down
+  else
+  {
+    if(Bt1 == LOW)
+      M1.run(FORWARD);
+    else
+      M1.run(RELEASE);
+
+    if(Bt2 == LOW)
+      M2.run(FORWARD);
+    else
+      M2.run(RELEASE);
+
+    if(Bt3 == LOW)
+      M3.run(FORWARD);
+    else
+      M3.run(RELEASE);
+
+    if(Bt4 == LOW)
+      M4.run(FORWARD);
+    else
+      M4.run(RELEASE);
+  }
+
+  //read values from the pots
+  P1 = analogRead(A0);
+  P2 = analogRead(A1);
+  P3 = analogRead(A2);
+  P4 = analogRead(A3);
+
+  //print all values every second
+  if(count %1000 == 0)
+  {
+    //print
+    Serial.print("M1 = ");
+    Serial.println(P4);
+    Serial.print("M2 = ");
+    Serial.println(P3);
+    Serial.print("M3 = ");
+    Serial.println(P2);
+    Serial.print("M4 = ");
+    Serial.println(P1);
+
+    Serial.println("\n");
+  }
+
+  //increase counter
+  count++;
+}
+}}}
+
+
 ----
 = Doodle Code =
