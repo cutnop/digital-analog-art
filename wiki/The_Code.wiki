@@ -6,7 +6,7 @@
 
 To use the Adafruit motor shield, the "AFmotor" library is needed.
 
-[Click to download the Library]
+[http://digital-analog-art.googlecode.com/files/AFmotor.rar Click to download the Library]
 
 ----
 = Test Code =
