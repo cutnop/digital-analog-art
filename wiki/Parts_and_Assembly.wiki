@@ -32,5 +32,7 @@
    # Solder three wires to the pot, as before
    # Glue the pot to the center of the base
    # Attach the metal rectangular strip from the rotational part of the pot to the base (a part that doesn't rotate with the robot)
- # 
- # 
+ # Attach the motor shield to the mega
+ # Wire the base motor to "M1", next the "M2", etc
+ # Wire the all of the pots to the analog pins 0 through 3
+ # Wire the five buttons with the correct resistors to pins digital pins 22-26
