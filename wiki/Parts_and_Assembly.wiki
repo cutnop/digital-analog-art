@@ -18,6 +18,9 @@
 
 ----
 =Assembly=
+
+
+*See the "PICTURES" link for additional help*
  
  # Assemble OWI robotic arm as per instructions
  # Mount the three smaller potentiometers to the joints of the arm
