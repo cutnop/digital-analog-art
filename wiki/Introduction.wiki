@@ -12,7 +12,7 @@
 ----
 =Goals= 
 
-*Recreate words autonomously in Morse code*
+*Recreate strings autonomously in Morse code using a robotic arm*
 
  # Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
 
@@ -25,3 +25,7 @@
 *Possible solution*: Use accelerometers/gyros to accurately measure angle positions to eliminate the mechanical error.
 
 *Actual solution*: Because the potentiometers gave us unreliable and inconsistent results, we decided to rely timing instead of the voltage reads from the potentiomiters. 
+
+ # Due to time constraints, we could not build all the functions for every letter of the alphabet as planed.
+
+*Actual solution*: We hard coded the methods needed to spell "MIAMI" in Morse code. Given a little more time, we could easily create all of the functions, but to show a proof-of-concept, we thought spelling Miami would be sufficient.
