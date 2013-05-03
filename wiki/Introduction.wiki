@@ -14,7 +14,7 @@
 
 *Recreate strings autonomously in Morse code using a robotic arm*
 
-  1. Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
+ 1. Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
 
  2. Build functions for each letter of the alphabet that can be called to turn any string into Morse code 
 ----
