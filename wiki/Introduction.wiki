@@ -2,6 +2,9 @@
  * [http://code.google.com/p/digital-analog-art/wiki/Introduction?ts=1366677682&updated=Introduction#Goals Goals]
  * [http://code.google.com/p/digital-analog-art/wiki/Introduction?ts=1366677749&updated=Introduction#Issues Issues]
 
+
+----
+*Our original goal was to recreate digital art from bitmap images into analog art with the help of a robotic arm. Due to our inexperience, we chose to use DC motors and learned we could not achieve the amount of accuracy that were up to our standards. We now know of many different possible solutions that would have been better suited for our needs, after a lot of research and suggestions from our peers. To demonstrate the concept of a robotic arm drawing, we wanted to show that the joint could be controlled to write in Morse-code.*
 ----
 =Team Members= 
 
@@ -17,6 +20,7 @@
  1. Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
 
  2. Build functions for each letter of the alphabet that can be called to turn any string into Morse code 
+
 ----
 =Issues=
 
