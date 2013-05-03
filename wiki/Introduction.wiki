@@ -16,7 +16,7 @@
 
  1. Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot 
 
- 2. Build functions for each letter of the alphabet that can be called to turn any string into Morse code 
+2. Build functions for each letter of the alphabet that can be called to turn any string into Morse code 
 ----
 =Issues=
 
@@ -26,6 +26,6 @@
 
 *Actual solution*: Because the potentiometers gave us unreliable and inconsistent results, we decided to rely timing instead of the voltage reads from the potentiomiters. 
 
- 2. Due to time constraints, we could not build all the functions for every letter of the alphabet as planed.
+2. Due to time constraints, we could not build all the functions for every letter of the alphabet as planed.
 
 *Actual solution*: We hard coded the methods needed to spell "MIAMI" in Morse code. Given a little more time, we could easily create all of the functions, but to show a proof-of-concept, we thought spelling Miami would be sufficient.
