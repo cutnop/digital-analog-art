@@ -1,0 +1,29 @@
+
+---
+
+# Team Members #
+
+  * Patrick Cutno
+  * Lyndon Machiya
+  * Jonathan Bruno Marques Santos
+  * Marcus Vinicius Rangel Renno
+
+---
+
+# Goals #
+
+**Recreate strings autonomously in Morse code using a robotic arm**
+
+  1. Attach potentiometers to a robotic arm with DC motors to receive angle feedback from each joint of the robot
+  1. Build functions for each letter of the alphabet that can be called to turn any string into Morse code
+
+
+---
+
+# Issues #
+
+  1. We learned our potentiometers were not giving consistent data. If a particular joint was at 90 degrees we would read the value of **'X**' from the corresponding potentiometer. As soon as the arm moved to another point, and returned to **'X**', the angle was no longer 90 degrees. Obviously, the error was mechanical, ether our mechanical pins that turned the potentiometers were slightly loose or the mechanics of potentiometers weren't meant to be precise enough for our purposes.
+    * **Possible solution**: Use accelerometers/gyros to accurately measure angle positions to eliminate the mechanical error.
+    * **Actual solution**: Because the potentiometers gave us unreliable and inconsistent results, we decided to rely timing instead of the voltage reads from the potentiomiters.
+  1. Due to time constraints, we could not build all the functions for every letter of the alphabet as planed.
+    * **Actual solution**: We hard coded the methods needed to spell "MIAMI" in Morse code. Given a little more time, we could easily create all of the functions, but to show a proof-of-concept, we thought spelling Miami would be sufficient.
